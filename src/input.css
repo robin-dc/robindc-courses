@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+   *{
+    font-family: 'Sofia Sans', sans-serif;
+   }
+   iframe {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .pulse{
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 0.2;
+    }
+  }
+}

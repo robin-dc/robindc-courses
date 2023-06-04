@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@robindc | Courses</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/lazysizes/lazysizes.min.js" defer></script>
+</head>
+<body>
+    <div class="bg-primary px-1 md:px-0 overflow-x-hidden">
+        <header>
+            <nav class="container flex justify-between py-2">
+                <a href="index.html" class="font-bold text-[1.5rem] text-secondary">DEVELOPEROBIN</a>
+                <div class="flex gap-[0.5rem] items-center">
+                    <a href="https://github.com/robin-dc/robindc-courses" target="_blank"><i class="fa-brands fa-github text-pColor text-2xl md:mr-[0.5rem]"></i></a>
+                    <input type="text" class="py-[0.6rem] px-1 rounded-md outline-none hidden md:block" placeholder="Search here." id="search" name="search">
+                    <button class=" rounded-md bg-primary px-1 py-[0.5rem] font-bold text-secondary text-base border-2 border-secondary hidden md:block" id="search-btn">SEARCH</button>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container pt-2 pb-5">
+            <h1 class="text-3xl font-extrabold text-white text-center">COURSES</h1>
+            <p class="font-medium text-pColor text-center">These are the courses I personally took that helped me in my journey.</p>
+            <div class="flex justify-center mt-3 bg-bColor rounded-md py-[0.5rem] md:gap-2 z-[9999999] flex-wrap sticky top-0 filter-btns">
+                <!-- <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn all" data-id="All">ALL</button>
+                <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn" data-id="HTML">HTML</button>
+                <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn" data-id="CSS">CSS</button>
+                <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn" data-id="JavaScript">JAVASCRIPT</button>
+                <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn" data-id="Git">GIT</button>
+                <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn" data-id="Tailwind">TAILWIND</button>
+                <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn" data-id="Bootstrap">BOOTSTRAP</button>
+                <button class="text-tertiary py-[0.5rem] px-1 font-semibold hover:text-white filter-btn" data-id="React">REACT</button> -->
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 py-4 course-container gap-1">
+
+
+            </div>
+        </main>
+
+        <footer class="py-5">
+            <div class="grid justify-center gap-2">
+                <p class="text-3xl py-1 px-2 font-semibold text-pColor inline text-center">You <span class="uppercase text-tertiary font-extrabold">can't</span>  learn to code by watching videos</p>
+                <p class="text-center text-3xl animate-bounce delay-200">☝</p>
+                <div class="flex justify-center">
+                    <p class="text-3xl bg-tertiary py-1 px-2 font-black text-primary inline text-center">HARD TRUTH</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="./main.js"></script>
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.lazyClass = 'lazyload';
+    </script>
+</body>
+</html>

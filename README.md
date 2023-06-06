@@ -4,7 +4,7 @@ These are the compilation of the courses i personally take that helped in my jou
 
 <br>
 
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">   <img src="https://img.shields.io/badge/css3%20-%2314354C.svg?&style=for-the-badge&logo=css3&logoColor=white">   <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">   <img src="https://img.shields.io/badge/-tailwind css-06B6D4?.svg?&style=for-the-badge&logo=tailwind css&logoColor=white"/>
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">   <img src="https://img.shields.io/badge/css3%20-%2314354C.svg?&style=for-the-badge&logo=css3&logoColor=white">   <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">   <img src="https://img.shields.io/badge/-tailwind css-%0f172a?.svg?&style=for-the-badge&logo=tailwind css&logoColor=white"/>
 
 <br>
 
@@ -16,7 +16,7 @@ These are the compilation of the courses i personally take that helped in my jou
 ## 🚀 To clone this project using CLI:
 1. Clone the project on your local environment.
 ```sh
-git clone https://github.com/robin-dc/Ryokou-Travel-Agency.git
+git clone https://github.com/robin-dc/robindc-courses.git
 ```
 2. Go to the project directory.
 ```sh

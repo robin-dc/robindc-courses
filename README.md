@@ -1,6 +1,6 @@
 # @robin courses : Overview
 
-These are the compilation of the courses i personally take that helped in my journey.
+These are the compilation of the courses i personally took that helped in my journey.
 
 <br>
 
